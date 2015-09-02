@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+    height: auto;
+    color: greenyellow;
+    min-height: 70%;
+ }
+
+h1 {
+    text-align: center;
+    color: greenyellow;
+
+    position: relative;
+    font-size: 70px;
+    margin-top: 0;
+
+    text-shadow:
+
+    0 1px #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+.leftNav {
+
+    float: left;
+    width: 15%;
+    height: 200%;
+    color:white;
+    text-align: center;
+
+ }
+ul {
+    list-style-type: none;
+}
+a:link {
+    color: yellowgreen;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: white;
+}
+
+a.header {
+    text-decoration: none !important;
+}
+.mainImage {
+    float: right;
+    width: auto;
+    text-align: left;
+    height: auto;
+}
+h3 {
+    text-align: center;
+}
+.details {
+    width: 320px;
+}
+.price {
+    color: red;
+    font-size: xx-large;
+    left: 205px;
+
+}
+.priceBox {
+
+    font-size: x-large;
+    left: 205px;
+
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+.catImage {
+    width: auto;
+    height: 10%;
+    float: right;
+}
+.poster {
+    float: right;
+}
+.breadcrumb {
+    font-style: oblique;
+}
+.marquee {
+    position: relative;
+    white-space: nowrap;
+    font-size: larger;
+    -webkit-animation: leftToright 25s linear infinite;
+
+}
+
+@-webkit-keyframes leftToright {
+    0% {
+        left: 0
+    }
+    25% {
+        left: 30%
+    }
+    50% {
+        left: 60%
+    }
+    75% {
+        left: 30%
+    }
+    100% {
+        left: 0
+    }
+
+ }
+.login {
+    font-size: x-large;
+
+}
+.logo:hover {
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    position: relative;
+}
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    } to {
+          -webkit-transform: rotate(360deg);
+      }
+}
+.error {
+    color: red;
+    font-size: xx-large;
+}
+
+table {
+    position: relative;
+    border-style: groove;
+    border-color: white;
+    border-width: 3px;
+    width: 85%;
+}
+td {
+    text-align: center;
+}
